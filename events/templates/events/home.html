@@ -80,7 +80,7 @@
 
 
 </head>
-<body>
+<body  class="p-3 mb-2 bg-warning-subtle text-emphasis-warning">
 
 <header>
     <nav class="navbar navbar-expand-lg navbar-light fst-italic" style="background-color: #efc07a;">
@@ -110,14 +110,13 @@
 </header>
 
 <main>
-
     <section class="py-5 text-center container">
         <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
 
                 <p class="lead text-muted">Hey there! I`m excited to see you here! You can write me right now!</p>
                 <p>
-                    <a href="mailto:nikita.ua1311@gmail.com" class="btn btn-primary my-2">Mail me</a>
+                    <a href="mailto:nikita.ua1311@gmail.com" ><button type="button" class="btn btn-warning" style="background-color: #FFDEAD;">Mail me</button></a>
                 </p>
                 <img src="{% static 'main_static.jpg' %}" width=300 height=300>
             </div>
@@ -148,13 +147,13 @@
 
 </main>
 
-<footer class="text-muted py-5">
+<footer class="text-muted py-5" style="background-color: #efc07a;">
     <div class="container">
         <p class="float-end mb-1">
-            <a href="#">Back to top</a>
+            <a href="#"><button type="button" class="btn btn-warning" style="background-color: #FFDEAD;">Back to top</button></a>
         </p>
         <p class="mb-1">My contact:</p>
-        <p class="mb-0">+380671329249</p>
+        <p><a href='tel:+380671329249'>+38 (067) 132-92-49</a></p>
     </div>
 </footer>
 
